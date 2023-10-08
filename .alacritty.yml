@@ -23,7 +23,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -79,13 +79,13 @@
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  #startup_mode: Windowed
+  startup_mode: Maximized
 
   # Window title
-  #title: Alacritty
+  # title: Alacritty
 
   # Allow terminal applications to change Alacritty's window title.
-  #dynamic_title: true
+  # dynamic_title: true
 
   # Window class (Linux/BSD only):
   #class:
@@ -99,19 +99,19 @@
   # Override the variant of the System theme/GTK theme/Wayland client side
   # decorations. Commonly supported values are `Dark`, `Light`, and `None` for
   # auto pick-up. Set this to `None` to use the default theme variant.
-  #decorations_theme_variant: None
+  # decorations_theme_variant: None
 
   # Resize increments
   #
   # Prefer resizing window by discrete steps equal to cell dimensions.
-  #resize_increments: false
+  # resize_increments: false
 
   # Make `Option` key behave as `Alt` (macOS only):
   #   - OnlyLeft
   #   - OnlyRight
   #   - Both
   #   - None (default)
-  #option_as_alt: None
+  option_as_alt: Both
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
