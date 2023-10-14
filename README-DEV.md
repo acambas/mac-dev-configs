@@ -13,6 +13,7 @@ contains a list of tools and setup that I do for my mac work environment
 - tmux
 - fzf
 - font-jetbrains-mono-nerd-font
+- alacritty
 
 # Extra tools that i install manually
 
