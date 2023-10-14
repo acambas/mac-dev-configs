@@ -3,7 +3,7 @@
     An optional prefix ! which negates the pattern; any matching file excluded by a previous pattern will become included again. If a negated pattern matches, this will override lower precedence patterns sources.
 # Ignore everything
 /*
-!/.config/
+# !/.config/
 # But not these files...
 !.tmux.conf
 !.zshrc
