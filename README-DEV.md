@@ -19,6 +19,8 @@ contains a list of tools and setup that I do for my mac work environment
 
 - nvm
 - ohmyzsh: for better shell integration [link](https://ohmyz.sh/)
+- live http server [link](https://github.com/tapio/live-server)
+- load testing tool oha [link](https://github.com/hatoo/oha)
 
 # Mac tools
 
