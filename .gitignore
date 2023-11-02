@@ -12,4 +12,6 @@
 !README-DEV.md
 !.gitignore
 !/.tmux/
+!/Brewfile
+
 # etc...
