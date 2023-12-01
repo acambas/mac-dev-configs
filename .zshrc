@@ -12,6 +12,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# load secrets
+[ -f ~/.secrets.sh ] && source ~/.secrets.sh
+
 
 # ---------------------------- aliases ----------------------------
 # General
