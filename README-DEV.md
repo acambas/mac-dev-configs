@@ -10,6 +10,15 @@ git remote add -t \* -f origin https://github.com/acambas/mac-dev-configs
 git checkout main --force
 ```
 
+# macos settings
+
+in order to setup the macos settings you need to run
+
+```bash
+chmod +x ~/.macos
+~/.macos
+```
+
 # Brew tools for installing
 
 All are in a file called Brewfile
@@ -25,6 +34,7 @@ extra details https://medium.com/@satorusasozaki/automate-mac-os-x-configuration
 
 - ohmyzsh: for better shell integration [link](https://ohmyz.sh/)
 - live http server [link](https://github.com/tapio/live-server)
+- nvm [link](https://github.com/nvm-sh/nvm)
 
 # Secrets
 

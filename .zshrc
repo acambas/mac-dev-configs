@@ -3,6 +3,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Set default encoding to UTF-8
+export LANG=en_US.UTF-8
+
+# Use nvim as the default editor
+export EDITOR="nvim"
+
 export PATH=/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/bin -
 export ZSH=$HOME/.oh-my-zsh
 
@@ -27,6 +33,9 @@ alias lg="lazygit"
 alias config.zsh="vim ~/.zshrc"
 alias config.tmux="nvim ~/.tmux.conf"
 alias config.vim="nvim ~/.config/nvim -c 'cd ~/.config/nvim'"
+alias config.secrets="nvim ~/.secrets.sh"
+alias config.macos="nvim ~/macos.sh"
+
 # Vim
 alias vi="nvim"
 alias vim="nvim"
