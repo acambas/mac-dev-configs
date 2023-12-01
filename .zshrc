@@ -119,8 +119,6 @@ export NVM_DIR="$HOME/.nvm"
 # bun completions
 [ -s "/Users/aleksandarcambas/.bun/_bun" ] && source "/Users/aleksandarcambas/.bun/_bun"
 
-eval "$(direnv hook zsh)"
-
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
     tmux attach -t default || tmux new -s default
 fi

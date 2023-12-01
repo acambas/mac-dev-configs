@@ -66,9 +66,6 @@ if vim.g.vscode then
 	vim.keymap.set("n", "gr", "<Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>")
 	vim.keymap.set("n", "<leader>rn", "<Cmd>call VSCodeNotify('editor.action.rename')<CR>")
 else
-	-- vim.keymap.set("n", "<leader>tt", "<Cmd>ToggleTerm<CR>")
-	-- vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
-
 	-- ordinary Neovim
 	vim.keymap.set("n", "Q", "<Esc>:qa!<CR>", { silent = true })
 	-- buffer stuff

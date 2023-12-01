@@ -31,3 +31,5 @@ function sasa() {
 	console.log(b);
 	console.log("idemoosdfsdf");
 }
+
+sasa();
