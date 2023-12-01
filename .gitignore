@@ -5,6 +5,7 @@
 /*
 # But not these files...
 !/.config
+!/keyboard-stuff
 /.config/*
 !/.config/kitty
 !.tmux.conf
