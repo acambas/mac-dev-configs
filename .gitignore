@@ -8,10 +8,10 @@
 !/keyboard-stuff
 /.config/*
 !/.config/kitty
+!/.config/nvim
 !.tmux.conf
 !.zshrc
 !template.latex
-!.alacritty.yml
 !README-DEV.md
 !.gitignore
 !/.tmux/
