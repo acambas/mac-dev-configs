@@ -32,6 +32,7 @@ alias lg="lazygit"
 # Config
 alias config.zsh="vim ~/.zshrc"
 alias config.tmux="nvim ~/.tmux.conf"
+alias config.kity="nvim ~/.config/kitty/kitty.conf"
 alias config.vim="nvim ~/.config/nvim -c 'cd ~/.config/nvim'"
 alias config.secrets="nvim ~/.secrets.sh"
 alias config.macos="nvim ~/macos.sh"
@@ -46,7 +47,7 @@ alias ...="cd ../.."
 
 
 # Tmux
-alias tn="tmux new -s"
+alias tn="tmux new -s -d"
 alias ta="tmux a -t"
 alias tl="tmux ls"
 alias tk="tmux kill-session -t"
