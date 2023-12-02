@@ -14,7 +14,7 @@
 !template.latex
 !README-DEV.md
 !.gitignore
-!/.tmux/
 !/Brewfile
+!/tmux-sessionizer.sh
 
 # etc...

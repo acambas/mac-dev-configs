@@ -45,3 +45,12 @@ example:
 ```bash
 export GITHUB_TOKEN=123
 ```
+
+# tmux
+
+in order to setup tmux sessionizer you need to run
+
+```bash
+chmod +x ~/tmux-sessionizer
+
+```

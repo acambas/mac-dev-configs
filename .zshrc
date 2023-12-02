@@ -51,13 +51,16 @@ alias ta="tmux a -t"
 alias tl="tmux ls"
 alias tk="tmux kill-session -t"
 alias td="tmux detach -t"
+alias ts="tmux switch-client -t"
+alias tss="~/tmux-sessionizer.sh"
+
 # --------------------------------------------------------
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    tmux attach -t default || tmux new -s default
+    tmux attach -t home || tmux new -s home -c $HOME
 fi
 
 # bun completions
