@@ -47,7 +47,7 @@ alias ...="cd ../.."
 
 
 # Tmux
-alias tn="tmux new -s -d"
+alias tn="tmux new -d -s"
 alias ta="tmux a -t"
 alias tl="tmux ls"
 alias tk="tmux kill-session -t"
