@@ -16,5 +16,5 @@
 !.gitignore
 !/Brewfile
 !/tmux-sessionizer.sh
-
+!/.amethyst.yml
 # etc...
