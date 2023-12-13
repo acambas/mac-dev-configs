@@ -43,6 +43,7 @@
   "onedark.nvim": { "branch": "master", "commit": "c5476a091b0f1b4e853db91c91ff941f848a1cdd" },
   "plenary.nvim": { "branch": "master", "commit": "55d9fe89e33efd26f532ef20223e5f9430c8b0c0" },
   "promise-async": { "branch": "main", "commit": "94f6f03c6c1e2aab551aacdf0c1e597a7269abb6" },
+  "smart-splits.nvim": { "branch": "master", "commit": "f0003bf9c3f11b8b9209264f865b8864453ca926" },
   "telescope-frecency.nvim": { "branch": "master", "commit": "de410701811f4142315ce89183256a969a08ff9d" },
   "telescope.nvim": { "branch": "master", "commit": "54930e1abfc94409e1bb9266e752ef8379008592" },
   "vim-illuminate": { "branch": "master", "commit": "3bd2ab64b5d63b29e05691e624927e5ebbf0fb86" },
