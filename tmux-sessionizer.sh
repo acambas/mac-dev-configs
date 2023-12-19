@@ -1,10 +1,23 @@
 #!/usr/bin/env bash
 
-if [[ $# -eq 1 ]]; then
-    selected=$1
+# Set default value
+default_notes_path="~/Documents/notes"
+
+# Check if the environment variable is set
+if [ -n "$NOTES_PATH" ]; then
+    # Use the value from the environment variable
+    notes_path="$NOTES_PATH"
+else
+    # Use the default value
+    notes_path="$default_notes_path"
+fi
+
+if [[ $# -eq 2 ]]; then
+    selected=$2
 else
     selected=$({ 
     echo "~"
+    echo "$notes_path"
     echo " ~/dev"
     find ~/dev -mindepth 1 -maxdepth 1 -type d  
   }| fzf)
