@@ -19,7 +19,7 @@ layouts:
   - fullscreen
   # - tall-right
   - wide
-  # - two-pane
+  - two-pane
   # - middle-wide
   # - 3column-left
   # - 3column-middle
@@ -36,15 +36,15 @@ layouts:
 # First mod (default option + shift).
 mod1:
   # - option
-  - shift
+  # - shift
   - control
-  # - command
+  - command
 
 # Second mod (default option + shift + control).
 mod2:
-  # - option
-  - shift
-  # - control
+  - option
+  # - shift
+  - control
   - command
 
 # Commands:

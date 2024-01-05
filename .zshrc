@@ -34,6 +34,7 @@ alias config.kity="nvim ~/.config/kitty/kitty.conf"
 alias config.vim="nvim ~/.config/nvim -c 'cd ~/.config/nvim'"
 alias config.secrets="nvim ~/.secrets.sh"
 alias config.macos="nvim ~/macos.sh"
+alias config.amethyst="nvim ~/.amethyst.yml"
 
 # Vim
 alias vi="nvim"
